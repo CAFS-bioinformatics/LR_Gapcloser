@@ -10,8 +10,8 @@
    2) Then for convenience ,you can type "export PATH=$PATH:your_directory/LR_Gapcloser/" to set the PATH environmental variables.
 
 <b>INPUT FILES</b> <p>
-   (1)The scaffold file is required and should be fasta format. The description line or header line, which begins with '>', provides a unique name and/or identifier for the sequence. And the name and/or identifier must not contain a "(:", because in data processing, we will use "(:" as delimiters. 
-   (2)The long reads file is also required and should be fasta format and the reads must be error corrected. If the file is fastq format, it should be converted into fasta format before running the software. 
+   (1)The scaffold file is required and should be fasta format. The description line or header line, which begins with '>', provides a unique name and/or identifier for the sequence. And the name and/or identifier must not contain a "(:", because in data processing, we will use "(:" as delimiters. <p>
+   (2)The long reads file is also required and should be fasta format and the reads must be error corrected. If the file is fastq format, it should be converted into fasta format before running the software. <p>
 
 <b>COMMANDS AND OPTIONS</b> <p>
    LR_Gapcloser is run via the shell script: LR_Gapcloser.sh, which could be found in the base installation directory. <p>
