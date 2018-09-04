@@ -26,8 +26,8 @@ Input options <p>
   -i  the scaffold file that contains gaps, represented by a string of N        [         required ] <p>
   -l  the raw and error-corrected long reads used to close gaps. The file should be fasta format. [         required ] <p>
   -s  sequencing platform: pacbio [p] or nanopore [n]                           [ default:       p ] <p>
-  -t  number of threads (for machines with multiple processors), used in the bwa mem alignment processes and the following coverage    
-      filteration. [ default:       5 ] <p>
+  -t  number of threads (for machines with multiple processors), used in the bwa mem alignment processes and the following 
+    coverage filteration. [ default:       5 ] <p>
   -c  the coverage threshold to select high-quality alignments                  [ default:     0.8 ] <p>
   -a  the deviation between gap length and filled sequence length             [ default:     0.2 ] <p>
   -m  to select the reliable tags for gap-closure, the maximal allowed distance from alignment region to gap boundary (bp) [ default:         600 ] <p>
